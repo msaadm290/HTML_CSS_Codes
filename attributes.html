@@ -4,28 +4,28 @@
 Attributes provide additional information about elements
 Attributes are always specified in the start tag
 Attributes usually come in name/value pairs like: name="value"
- -->
+-->
 
- <!-- The href Attribute -->
+<!-- The href Attribute -->
 
- <a href="https://www.w3schools.com">Visit W3Schools</a>
+<a href="https://www.w3schools.com">Visit W3Schools</a>
 
- <!-- The src Attribute -->
+<!-- The src Attribute -->
 
- <img src="img_girl.jpg">
+<img src="images/img_girl.jpg" width="500" height="600">
 
 <!-- 1. Absolute URL - Links to an external image that is hosted on another
-    website. Example: src="https://www.w3schools.com/images/img_girl.jpg".
+website. Example: src="https://www.w3schools.com/images/img_girl.jpg".
 
 Notes: External images might be under copyright. If you do not get permission to use it, 
 you may be in violation of copyright laws. In addition, 
 you cannot control external images; it can suddenly be removed or changed.
 
- -->
- <!-- 2. Relative URL - Links to an image that is hosted within the website. 
-    Here, the URL does not include the domain name. If the URL begins without a slash, 
-    it will be relative to the current page. Example: src="img_girl.jpg". 
-    If the URL begins with a slash, it will be relative to the domain. Example: src="/images/img_girl.jpg".
+-->
+<!-- 2. Relative URL - Links to an image that is hosted within the website. 
+Here, the URL does not include the domain name. If the URL begins without a slash, 
+it will be relative to the current page. Example: src="img_girl.jpg". 
+If the URL begins with a slash, it will be relative to the domain. Example: src="/images/img_girl.jpg".
 
 Tip: It is almost always best to use relative URLs. They 
 will not break if you change domain.
@@ -36,7 +36,7 @@ will not break if you change domain.
 <!-- The <img> tag should also contain the width and height attributes, which specify the width and height of the image (in pixels):
 
  -->
-<img src="img_girl.jpg" width="500" height="600">
+
 
 <!-- The alt Attribute -->
 
@@ -66,23 +66,23 @@ See what happens if we try to display an image that does not exist: -->
 
 The following example specifies English as the language: -->
 
-<!DOCTYPE html>
+
 <html lang="en">
-<body>
+
 The world of Electronics    
-</body>
-</html>
+
 
 <!-- Country codes can also be added to the language code in the lang attribute. So, the first two characters define the language of the HTML page, and the last two characters define the country.
 
 The following example specifies English as the language and United States as the country: -->
 
-<!DOCTYPE html>
+
+
+
 <html lang="en-us">
-<body>
+
 In USA
-</body>
-</html>
+
 
 <!-- The title Attribute -->
 <!-- The title attribute defines some extra information about an element.
@@ -99,30 +99,32 @@ The value of the title attribute will be displayed as a tooltip when you mouse o
 However, W3C recommends quotes in HTML, and demands quotes for stricter document types like XHTML. -->
 
 <!-- GOOD -->
-<a href="https://"www.w3schools.com/html/">Visit our HTML tutorial</a>
+<a href="https://www.w3schools.com/html/">Visit our HTML tutorial</a>
 
 <!-- BAD -->
 <!-- <a href=https://www.w3schools.com/html/>visit our HTML tutorial</a>"  -->
 
 <!-- Sometimes you have to use quotes. This example will not display the title attribute correctly, because it contains a space: -->
 
-<p title=About W3Schools>
+<!-- <p title=About W3Schools> -->
 
-    <!-- Single or Double Quotes?     -->
+<!-- Single or Double Quotes?     -->
 
-    <!-- Double quotes around attribute values are the most common in HTML, 
-        but single quotes can also be used.
+<!-- Double quotes around attribute values are the most common in HTML, 
+but single quotes can also be used.
 
 In some situations, when the attribute value itself contains double quotes, 
 it is necessary to use single quotes: -->
 
-<p title='John "ShotGun" Nelson'>
+<p title='saad'>saad with double quotes</p>
+
 
 <!-- Or vice versa: -->
 
-<p title="John 'Shotgun' Nelson">
+<p title="i'm saad">saad with single quotes</p>
 
-   <!--Chapter Summary
+
+<!--Chapter Summary
 All HTML elements can have attributes
 The href attribute of <a> specifies the URL of the page the link goes to
 The src attribute of <img> specifies the path to the image to be displayed
@@ -131,5 +133,7 @@ The alt attribute of <img> provides an alternate text for an image
 The style attribute is used to add styles to an element, such as color, font, size, and more
 The lang attribute of the <html> tag declares the language of the Web page
 The title attribute defines some extra information about an element
-  -->
+-->
 
+</body>
+</html>
