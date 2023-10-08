@@ -84,17 +84,29 @@ the <th> tag instead of the <td> tag: -->
   <!-- How To Add a Border -->
   
   <!-- <The areas are defined with one or more <area> tags.> -->
-
+    <head>
     <style>
     table, th, td {
       border : 1px solid black;
-      border-collapse: collapse;
+      /* border-collapse: collapse; */
+      /* border-radius: 10px */
+      /* border-style: dotted; */
+    }
+    th, td {
+      background-color: #96d4d4;
     } 
     </style>
-    <h2>Table with Border</h2>
+    </head>
+    <!-- <h2>Table with Invisible borders</h2> -->
+    <h2>Table With Rounded Borders</h2>
+    <!-- <p>Use the CSS border property to add a border to the table.
+      Style the table with white borders and a background color of the cells to 
+      make the impression of invisible borders.
+    </p> -->
 
-    <p>Use the CSS border property to add a border to the table.</p>
-
+    <p>Use the CSS border-radius property to add 
+    rounded corners to the borders.</p>
+    
     <table style="width:100px">
 
     <tr>
@@ -116,7 +128,13 @@ the <th> tag instead of the <td> tag: -->
       </tr>
 
     </table>
+<!-- Style Table Borders -->
+
+<!-- If you set a background color of each cell, and give the border 
+a white color (the same as the document background), you get the impression of an invisible border: -->
+  
 
 </table> 
 </body>
 </html>
+
