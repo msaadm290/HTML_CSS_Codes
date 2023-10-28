@@ -1,0 +1,68 @@
+.header .headerinfo {
+    background: #0000ff;
+    color: #fff;
+    display: flex;
+    padding: 20px;
+}
+
+.header .headerinfo .email {
+    width: 50%;
+    text-align: left;
+}
+
+.header .headerinfo .phone {
+    width: 50%;
+    text-align: right;
+}
+
+.header .headermenu {
+    display: flex;
+    padding: 20px 50px;
+    text-align: right;
+}
+
+.header .headermenu .logo {
+    color: #0000ff;
+    text-transform: uppercase;
+    font-size: 50px;
+    width: 100px;
+    text-align: left;
+    
+
+}
+
+.header .headermenu a {
+    text-decoration: none;
+}
+
+.header .headermenu .navbarlist {
+    width:200%;
+    
+}
+
+.header .headermenu .navbarlist li {
+    display: inline-block;
+    margin: 0 50px;
+}
+
+.header .headermenu .navbarlist li a {
+    color: #000;
+    font-size: 20px;
+    
+    
+}
+
+.header .headermenu .apptbtn {
+    width: 50%;
+    text-align: right;
+}
+
+.header .headermenu .apptbtn button {
+      background: #0000ff;
+      padding: 10px 20px;
+      color: #fff;
+      border: none;
+      font-size: 17px;
+      text-transform: uppercase;
+}
+
