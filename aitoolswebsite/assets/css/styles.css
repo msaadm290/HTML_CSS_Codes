@@ -9,31 +9,30 @@ body {
     margin: 0 auto;
 }
 
-.header .headerinfo {
-    background: #0000ff;
+.header .headermenu {
+    background: #022B44;
     color: #fff;
     display: flex;
     padding: 20px;
 }
 
-.header .headerinfo .email {
-    width: 50%;
+/* .header .headerinfo .email { */
+    /* width: 50%;
     text-align: left;
-}
+} */
 
-.header .headerinfo .phone {
+/* .header .headerinfo .phone {
     width: 50%;
-    text-align: right;
-}
+    text-align: right;}   */
 
 .header .headermenu {
     display: flex;
-    padding: 20px 50px;
+    padding: 20px 30px;
     text-align: right;
 }
 
 .header .headermenu .logo {
-    color: #0000ff;
+    color: #fff;
     text-transform: uppercase;
     font-size: 20px;
     width: 30%;
@@ -47,35 +46,49 @@ body {
 }
 
 .header .headermenu .navbarlist {
-    width:200%;
+    width: 100%;
     
 }
 
 .header .headermenu .navbarlist li {
     display: inline-block;
-    margin: 0 50px;
+    margin: 0 10px;
 }
 
 .header .headermenu .navbarlist li a {
-    color: #000;
-    font-size: 20px;
+    color: #fff;
+    font-size: 15px;
     
     
 }
 
-.header .headermenu .apptbtn {
-    width: 50%;
+.header .headermenu .wrtgbtn {
+    width: 25%;
     text-align: right;
 }
 
-.header .headermenu .apptbtn button {
-      background: #0000ff;
+.header .headermenu .wrtgbtn button {
+      background: #ffe600;
       padding: 10px 20px;
-      color: #fff;
+      color: #0b030c;
       border: none;
       font-size: 17px;
-      text-transform: uppercase;
+      text-transform: capitalize;
 }
+
+.header .headermenu .signbtn {
+    width: 30%;
+    text-align: right;
+}
+
+.header .headermenu .signbtn {
+    padding: 10px 20px;
+    color: #fff;
+    border: none;
+    font-size: 17px;
+    text-transform: capitalize
+}
+
 
 .slide .slideinfo {
     color: #fff;
