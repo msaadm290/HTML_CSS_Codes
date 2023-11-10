@@ -100,7 +100,6 @@ body {
 
 .slide {
     background-color:antiquewhite; 
-    height: 800px;
     padding: 10px 20px;
     background-size: cover;
 
@@ -131,86 +130,44 @@ body {
     text-align: center;
 }
 
+.d-flex {
+    display: flex;
+}
 
-.candp{
-    background-color: #fff;
-    box-sizing: border-box;
-    margin: 0;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 1.5;
-    width: 42%;
-    display: block;
+.productfeatures .featurebox{
+    background: #fff;
+    width: 45%;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin: 10px;
+}
+
+.productfeatures .featurebox .featurelist ul li{
+    list-style: none;
+    margin: 10px;
+}
+.productfeatures .featurebox .featurelist ul li i{
+    color: #ffb300;
+    margin-right: 5px;
+}
+
+.productfeatures .featurebox h1{
     text-align: center;
-    padding-bottom: 2%;
-}    
-
-.list1 {
-    background-color: #fff;
-    box-sizing: border-box;
-    margin: 0;
-    font-size: 15px;
-    line-height: 1.5;
-    text-align: left;
-    width: 42%;
-    padding-top: 1%;
-    padding-inline-start: 3%;
-    
-
-
 }
-
-.gsbtn {
-    background-color: #fff;
-    box-sizing: border-box;
-    margin: 0;
-    font-size: 15px;
-    line-height: 1.5;
+.productfeatures .featurebox .featurebtn{
     text-align: center;
-    width: 42%;
-    
-    
-
 }
 
-.dandt {
-    background-color: #fff;
-    box-sizing: border-box;
-    margin: 0%;
-    height: fit-content;
-    font-weight: 400;
+.productfeatures .featurebox .featurebtn button{
+    background: #f2f2f2;
+    border: none;
     font-size: 20px;
-    display: block;
-    text-align: right;
-    padding-bottom: 2%;
-}    
-
-.listh2 {
-    background-color: #fff;
-    box-sizing: border-box;
-    margin: 0%;
-    
-    height: fit-content;
-    font-size: 15px;
-    text-align: right;
-    padding-top: 1%;
-    padding-inline-start: 3%;
-    
-    
-
-
+    text-transform: capitalize;
+    font-weight: 700;
+    padding: 10px;
+    border-radius: 10px;
 }
 
-.gstarted {
-    background-color: #fff;
-    box-sizing: border-box;
-    margin: 0%;
-    font-size: 15px;
-    line-height: 1.5;
-    text-align: right;
-    width: 42%;
-    
-
-}
 
 
