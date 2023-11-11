@@ -137,7 +137,7 @@ body {
 .productfeatures .featurebox{
     background: #fff;
     width: 45%;
-    padding: 20px;
+    padding: 40px;
     border-radius: 20px;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     margin: 10px;
@@ -145,7 +145,7 @@ body {
 
 .productfeatures .featurebox .featurelist ul li{
     list-style: none;
-    margin: 10px;
+    margin: 8px;
 }
 .productfeatures .featurebox .featurelist ul li i{
     color: #ffb300;
@@ -165,9 +165,48 @@ body {
     font-size: 20px;
     text-transform: capitalize;
     font-weight: 700;
-    padding: 10px;
+    padding: 20px;
     border-radius: 10px;
+} 
+
+.featureinfo .boxinfo {
+    background: #fff;
+    width: 45%;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin: 10px;
 }
+
+.featureinfo .boxinfo .boxlist ul li {
+    list-style: none;
+    margin: 8px;
+}
+
+.featureinfo .boxinfo .boxlist ul li i{
+    color: #ffb300;
+    margin-right: 5px;
+}
+
+.featureinfo .boxinfo h1{
+   text-align: center;
+}
+
+
+.featureinfo .boxinfo .boxbutton {
+   text-align: center;
+}
+
+.featureinfo .boxinfo .boxbutton button{
+   background: #f2f2f2;
+   border:none;
+   font-size:20px;
+   text-transform:capitalize;
+   font-weight:700;
+   padding: 20px;
+   border-radius:10px;
+}
+
 
 
 
