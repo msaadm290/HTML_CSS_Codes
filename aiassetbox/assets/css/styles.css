@@ -207,6 +207,38 @@ body {
    border-radius:10px;
 }
 
+.articleheading {
+    padding: 5px 5px;
+    color: #022B44;
+    border: none;
+    text-transform: capitalize;
+    margin-bottom:20px;
+    text-align: center;
+    font-size: 30px ;
+    font-weight: bold;
+}
+
+.articleinfo .articlebox {
+    background: #fff;
+    width: 45%;
+    padding: 0px;
+    border-radius: 20px;
+    margin: 10px;
+    text-align: center;
+    font-size: 14px;
+    
+}
+
+.articleinfo .articlebox img {
+       width: 100%;
+       border-radius: 20px;
+       height: 55%
+       
+       
+       
+}
+
+
 
 
 
