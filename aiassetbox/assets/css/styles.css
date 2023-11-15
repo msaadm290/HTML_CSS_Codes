@@ -1,5 +1,6 @@
 body {
     font-family: 'ubuntu', sans-serif;
+    margin: 0;
 }
 
 .container {
@@ -37,8 +38,7 @@ body {
     font-size: 20px;
     width: 30%;
     text-align: left;
-    
-
+    margin: 13px 0;
 }
 
 .header .headermenu a {
@@ -141,12 +141,19 @@ body {
     border-radius: 20px;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     margin: 10px;
+    
 }
 
 .productfeatures .featurebox .featurelist ul li{
     list-style: none;
     margin: 8px;
+    display: flex;
 }
+
+.productfeatures .featurebox .featurelist{
+    height: 175px;
+}
+
 .productfeatures .featurebox .featurelist ul li i{
     color: #ffb300;
     margin-right: 5px;
@@ -176,11 +183,18 @@ body {
     border-radius: 20px;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     margin: 10px;
+    
+}
+
+.featureinfo .boxinfo .boxlist {
+    height: 175px;
 }
 
 .featureinfo .boxinfo .boxlist ul li {
     list-style: none;
     margin: 8px;
+    display: flex;
+    
 }
 
 .featureinfo .boxinfo .boxlist ul li i{
@@ -195,6 +209,7 @@ body {
 
 .featureinfo .boxinfo .boxbutton {
    text-align: center;
+   
 }
 
 .featureinfo .boxinfo .boxbutton button{
@@ -205,6 +220,8 @@ body {
    font-weight:700;
    padding: 20px;
    border-radius:10px;
+   
+   
 }
 
 .articleheading {
@@ -227,15 +244,20 @@ body {
     text-align: center;
     font-size: 14px;
     
+    
 }
 
 .articleinfo .articlebox img {
        width: 100%;
        border-radius: 20px;
-       height: 55%
+       height: 55%      
+         
        
-       
-       
+}
+
+.articleinfo .articlebox P {
+    padding: 10px;
+    height: 50PX;
 }
 
 
