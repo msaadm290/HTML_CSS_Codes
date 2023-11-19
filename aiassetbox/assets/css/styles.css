@@ -269,6 +269,46 @@ body {
     
 }
 
+.footer {
+  background-color: #022B44;
+  padding: 20px 0;
+  margin: 0;
+  width: 100%;
+  height: auto;
+  display: flex;
+  
+}
+
+.footer .logo {
+    margin: 10px;
+    text-align: left;
+    padding: 10px;
+}
+.footer a {
+  color: antiquewhite
+  
+
+}
+.footer ul li {
+  color:antiquewhite;
+  text-decoration: none;
+  list-style: none;
+  text-align: center;
+  padding: 15px;
+  width: 100%;
+  
+}
+
+.copyright  {
+    background-color: #022B44;
+    text-align: left;
+    color: #f2f2f2;
+    width: 100%;
+    margin: 0;
+    padding: 2%;
+    
+}
+
 
 
 
